@@ -80,7 +80,7 @@ nav ul a {
     transition:all .25s ease-out
 }
 
-nav ul a:hover,nav ul a:focus {
+nav ul a:hover,nav ul a:focus,nav ul a.sel {
     background:#007;
     background:var(--link-active, #007);
     color:white;
