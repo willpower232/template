@@ -3,7 +3,7 @@
         width:77rem;
     }
 
-    @supports (display: grid) {
+    @supports (display: grid) and (grid-template-columns: subgrid) {
         @supports not (display: -ms-grid) {
             body {
                 display:grid;
