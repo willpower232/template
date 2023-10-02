@@ -10,3 +10,11 @@ Disallow: /
 # Common Crawl's crawler
 User-agent: CCBot
 Disallow: /
+
+# ChatGPT Plugins
+User-agent: ChatGPT-User
+Disallow: /
+
+# Google Bard and Friends
+User-agent: Google-Extended
+Disallow: /
