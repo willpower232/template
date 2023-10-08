@@ -55,7 +55,7 @@ nav > * + *,main * + * {
     margin-top:0.9em;
 }
 
-nav ul {
+nav menu {
     list-style:none;
     padding:0;
 }
@@ -65,7 +65,7 @@ nav li {
     margin:0 0.5em 0.5em 0;
 }
 
-nav ul a {
+nav li a {
     border:0.2em solid;
     border-color:#007;
     border-color:var(--link-active, #007);
@@ -80,7 +80,7 @@ nav ul a {
     transition:all .25s ease-out
 }
 
-nav ul a:hover,nav ul a:focus,nav ul a.sel {
+nav li a:hover,nav li a:focus,nav li a.sel {
     background:#007;
     background:var(--link-active, #007);
     color:white;
